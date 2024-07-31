@@ -1,0 +1,102 @@
+/* General Styling */
+footer {
+    background-color: #f8f9fa;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+}
+
+footer .row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+footer .col {
+    flex: 1;
+    min-width: 200px;
+    padding: 10px;
+}
+
+footer img {
+    max-width: 100%;
+    height: auto;
+}
+
+footer h3, footer h4 {
+    color: #333;
+    margin: 10px 0;
+}
+
+footer .underline {
+    border-bottom: 2px solid #333;
+    display: inline-block;
+    width: 50px;
+    margin: 5px 0;
+}
+
+footer ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+footer ul li {
+    margin: 10px 0;
+}
+
+footer ul li a {
+    text-decoration: none;
+    color: #007bff;
+}
+
+footer ul li a:hover {
+    text-decoration: underline;
+}
+
+footer form {
+    display: flex;
+    align-items: center;
+}
+
+footer form input[type="email"] {
+    padding: 5px;
+    margin-right: 5px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    flex: 1;
+}
+
+footer form button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+footer form button:hover {
+    background-color: #0056b3;
+}
+
+footer .social-icon a {
+    text-decoration: none;
+    color: #333;
+    font-size: 20px;
+    margin-right: 10px;
+}
+
+footer .social-icon a:hover {
+    color: #007bff;
+}
+
+footer .copyright {
+    text-align: center;
+    margin-top: 20px;
+    color: #666;
+}
+
+hr {
+    margin: 20px 0;
+    border: 0;
+    border-top: 1px solid #ddd;
+}

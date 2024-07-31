@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head><header>
+    <link rel="stylesheet" href="home.css">
+    <nav class="navbar">
+    <div class="logo">
+    <a href="home.html">Team Orange🍊</a>
+    </div>
+    <ul class="nav-links">
+        <li><a href="home.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="team.html">Our Team</a></li>
+        <li><a href="hire.html">Hire Us</a></li>
+    </ul>
+    </nav>
+    </header>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Team Orange🍊</title>
+    <link rel="stylesheet" href="login.css">
+    <link rel="icon" href="logo.png" type="png">
+</head>
+<body>
+ <div class="main">
+    <div class="form-box">
+        <div class="button-box">
+            <div id="btn"></div>
+            <button type="button" class="toggle-btn" onclick="login()">Log In</button>
+            <button type="button" class="toggle-btn" onclick="register()">Register</button>
+        </div>
+        <div class="social-icons"> 
+            <img src="fb.png">
+            <img src="tw.png">
+            <img src="gp.png">
+        </div> 
+        <form id="login" class="input-group">
+            <input type="text" class="input-field" placeholder="User Id" required>
+            <input type="text" class="input-field" placeholder="Enter Password" required>
+            <input type="checkbox" class="check-box"><span>Remember Password</span>
+            <button type="submit" class="submit-btn">Log in</button>
+        </form>
+        <form id="register" class="input-group">
+            <input type="text" class="input-field" placeholder="User Id" required>
+            <input type="email" class="input-field" placeholder="Email Id" required>
+            <input type="text" class="input-field" placeholder="Enter Password" required>
+            <input type="checkbox" class="check-box"><span>I agree to the terms & conditins</span>
+            <button type="submit" class="submit-btn">Register</button>
+        </form>
+    </div>
+   
+ </div>   
+  
+ <script>
+    var x = document.getElementById("login");
+    var y = document.getElementById("register");
+    var z = document.getElementById("btn");
+
+    function register(){
+        x.style.left = "-400px";
+        y.style.left = "50px";
+        z.style.left = "110px";
+
+    }
+    function login(){
+        x.style.left = "50px";
+        y.style.left = "450px";
+        z.style.left = "0px";
+
+    }
+ </script>
+  <footer>
+    <link rel="stylesheet" href="home.css">
+    <div class="row">
+    <div class="col">
+    <img src="logo.png" alt="logo3" width="150" height="80">
+    </div>
+    <div class="col">
+    <h3>Office <div class="underline"><span></span></div></h3>
+    <p>Garden City University</p>
+    <p>T.C. Palya Road</p>
+    <p>Bhattarahalli, Bangalore</p>
+    <p>Karnataka, Pin-560016, India</p>
+    <p class="email-id">teamorange2k24@gmail.com</p>
+    <h4>+91 - 1234567891</h4>
+    </div>
+    <div class="col">
+    <h3>Links <div class="underline"><span></span></div></h3>
+    <ul>
+        <li><a href="home.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="team.html">Our Team</a></li>
+        <li><a href="hire.html">Hire Us</a></li>
+    </ul>
+    </div>
+    <div class="col">
+    <h3>Newsletter <div class="underline"><span></span></div></h3>
+    <form>
+    <i class="fa-regular fa-envelope"></i>
+    <input type="email" placeholder="Enter your Email ID" required>
+    <button type="submit"><i class="fa-solid fa-arrow-right"></i></button>
+    </form>
+    <div class="social-icon">
+    <a href="#" class="fab fa-facebook"></a>
+    <a href="#" class="fab fa-instagram"></a>
+    <a href="#" class="fab fa-twitter"></a>
+    <a href="#" class="fab fa-youtube"></a>
+    <a href="#" class="fab fa-whatsapp"></a>
+    </div>
+    </div>
+    </div>
+    <hr>
+    <p class="copyright">Team Orange @ 2024 - All rights Reserved</p>
+   </footer>
+    
+</body>
+</html>
